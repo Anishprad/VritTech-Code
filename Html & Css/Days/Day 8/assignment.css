@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/38/82/seamless-food-pattern-with-vegetables-and-fruits-vector-1803882.jpg);
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+header{
+    position: sticky;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.head img{
+    height: 80px;
+    width: 80px;
+    padding: 40px;
+    
+}
+.head nav ul{
+    display: flex;
+}
+.head nav ul li{
+    list-style: none;
+    
+    
+}
+.head nav ul li a{
+color: white;
+text-decoration: none;
+padding-left: 40px;
+}
+.head nav ul li a:hover{
+    text-decoration: underline;
+    transform: scale(2,2);
+    transition: o.3s ease;
+    font-size: 40px;
+}
+
+.head button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgba(182, 248, 51, 0.83);
+    margin-right: 40px;
+}
+.image img{
+    height: 500px;
+    width: 700px;
+    float: right;
+margin-right: 40px;
+}
+
+.mid h1{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    background-color:rgba(255, 0, 0, 0.151);    
+}
+.mid p{
+    color: white;
+    position: absolute;
+    top: 70%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.mid button{
+    position: absolute;
+    top: 85%;
+    margin-left: 40px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid yellow;
+    color: yellow;
+}
+ 
+.image1 img{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+.center{
+position: absolute;
+top: 100%;
+padding-top: 80px;
+padding-left: 40px;
+} 
+.small_pictures img{
+    height: 150px;
+    width: 200px;
+}
+.center{
+    display: flex;
+}
+.center .content h1{
+    color: white;
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.center .content p{
+color: white;
+font-size: 20px;
+padding-left: 60px;
+padding-top: 20px;
+}
+.center .content button{
+padding: 20px 40px;
+margin-left: 40px;
+margin-top: 40px;
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid yellowgreen;
+color: yellow;
+border-radius: 10px;
+}
+.center .small_pictures{
+padding-left: 20px;
+padding-top: 70px;
+}
+.center .small_pictures img{
+    padding-left: 40px;
+}
+.center .small_pictures img:hover{
+    transform: scale(1.2,1.2);
+}
+button{
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3</title>
+  </head>
+  <body>
+    <canvas width="200" id="mycanvas" height="100"></canvas>
+    <canvas width="500" id="mycircle" height="500" style="background-color: blue;"></canvas>
+
+    <script>
+    let canvaaas = document.getElementById('mycanvas');
+let ctx = canvaaas.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+
+
+let circleDiv = document.getElementById("mycircle");
+let context = circleDiv.getContext("2d");
+context.beginPath();
+context.arc(95, 50, 40, 0, 2*Math.PI);
+context.stroke();
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./assignment.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <img
+          src="data:image/jpeg;base64,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Dx7TnW+CU3Eo+p0HDlXSw7FGx8spIyV6bHn7s8rxPR/0Pa9erqNHZzXqq9wU/CWUFWXH1Vjn9gTi/aLwttJqbtO2fsrCFJ+9WeUb81Ih5cP65XC/cdV+hv8A6i37s/8AvrnI+Pf2rVfvNn/I0679DX/UW/dX/wB9c5Hx7+1ar94s/wCRoXD+9l9RBE9T9i6F8N8Ov8StA696YpB7lT+rA9fM2Cf8qgzifY3wE67VJTz0x9pYR92tSN35k4A/anQfpW8aFuoTSVEDT6MbSB8PVxgj+FcD/VCct68pxz7rhb7msZndizuxZmPdmY5JP5zXEQ6YREQpERAREQEREBERAREQEREBLH+ksaT3UJjN/XZ88thCiptx2GSe55JldEJcZfKRodS1VtdqfFU6uOcZKkNjP5S59svaZvELlsZAiIuxVB3cbixYnA5ORx9Jz2Yhm4Y3Lq9Vr7M+Le6aqnU7dwqLErnbkMjIefT4v/abfarxsa3VPqBWK94AKht2do2hicDnAX+UpYg/Hj1dXqsqvE9mls0yIAbrFex88sqZ2VgfLJzz6/hK2IhqYyJ/gfiTaXUU6hBlqnDY7bl7MufqpYfnLH2x9pB4hal3RFTqmw4YvvUElSeBgjLfz+k5+IZvHjcur1Xnsj7RN4feb1rFhNZrwWKgBipJyAf7olXrtT1LbLcYNljPjvt3sWxn17yPEEwky6vV13sl7af0fXYlemV7LWyzlyrYAwqgbTwOT+JMoLdTSzM713F3YsxN1eWYnJJ+x+cgCIScWMtynmrVtbpNjKujbeVIDte7bWIIDlQgBx3x24lVEQ1jjIREQ0REQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERA/9k="
+          alt="saudi maiz"
+        />
+        <nav>
+          <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Venue.html">Venue</a></li>
+            <li><a href="Events.html">Events</a></li>
+          </ul>
+        </nav>
+        <button>Book Now</button>
+      </div>
+    </header>
+    <section class="up">
+      <div class="image">
+        <img
+          src="https://www.arabnews.com/sites/default/files/thesix/2020/05/01/2086166-1246090513.jpg"
+          alt="saudi dishes"
+        />
+      </div>
+      <div class="mid">
+        <h1>
+          Taste the authentic <br />
+          Saudi cuisine
+        </h1>
+
+        <p>
+          Among the best Saudi chefs in the world,<br />serving you something
+          beyond flavor.
+        </p>
+        <button>Our Menu</button>
+      </div>
+    </section>
+
+    <section class="middle">
+      <div class="center">
+        <div class="image1">
+          <img
+            src="https://c8.alamy.com/comp/F4TPMK/legendary-columbia-restaurants-spanish-tile-murals-ornate-architecture-F4TPMK.jpg"
+            alt="columbia spanish restaurant"
+          />
+        </div>
+        <div class="content">
+          <h1>
+            A distinctive dining destination <br />
+            inspired by the culture.
+          </h1>
+          <p>Experience AI Balad old town of Jeddah vibes.</p>
+          <button>Our Venue</button>
+          <div class="small_pictures">
+            <img
+              src="https://talkcarpet.com/wp-content/uploads/2020/11/Talk-Carpet-Botania-Restaurant-Madrid-2.jpg"
+              alt="spanish 1"
+            />
+            <img
+              src="https://weekenduae.com/wp-content/uploads/2022/01/weekenduae-Lola-Taberna-Espanola-9-scaled.jpg"
+              alt="spanish 2"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLI-KEisu88yDDJlBEfAPIJqIrwqkE4nyDT5EvlNtnBQE81j-ur6TpEMDRVWt29lE1Wo&usqp=CAU"
+              alt="spanish 3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

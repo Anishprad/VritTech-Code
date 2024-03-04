@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basobas Nepal</title>
+    <style>
+        .laptop .container{
+            background-color: yellow;
+        width: 400px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        }
+        .laptop .box{
+            background-color: blue;
+        width: 200px;
+
+        }
+         li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .laptop{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            top: 80%;
+            left: 10%;
+            display: none;
+        }
+        .laptop:hover .box{
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="laptop">
+        <ul class="container">
+        <li><a href="#">Home</a></li>
+        <li><a class="sales" href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+    </ul>
+    <div class="box">
+    <ul class="test">
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Vision</a></li>
+    </ul>
+</div>
+
+</div>
+</nav>
+</body>
+</html>

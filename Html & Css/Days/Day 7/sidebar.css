@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(4, 1fr) ;
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.sidebar{
+grid-column-start: 1;
+grid-column-end: 1;
+background-color: green;
+grid-row-start: 1;
+grid-row-end: 5;
+}
+.information{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: yellow;
+}
+.box{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: orange;
+}
+.pencil{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: grey;
+}

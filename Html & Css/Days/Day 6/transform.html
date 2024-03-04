@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        margin: 40px;
+         position: relative;
+         overflow: hidden;
+
+    }
+.box::before {
+    content: "New";
+    position: absolute;
+    right: -30px;
+
+    top: 10px;
+    color: white;
+    transform: rotate(45deg);
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+    
+}
+
+button{
+    background-color: yellow;
+    border: none;
+    position: relative;
+}
+
+button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 30px;
+    
+}
+</style>
+
+</head>
+<body>
+    <div class="box"></div>
+    <button>Read More</button>
+</body>
+</html>

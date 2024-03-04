@@ -1,0 +1,17 @@
+.box{
+    background-color: yellow;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: light;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+}
+.box:hover{
+    font-size: 60px;
+    background-color: blue;
+    color: white;
+    
+}
